@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #334454;
+}
+
+h2 {
+    font-size: 48px;
+    color: #334454;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #334454;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    color: dimgray;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    height: 600px;
+    padding-bottom: 200px;
+    padding-top: 30px;
+}
+
+.highlights {
+    color: #ff2d80;
+}
+
+
+/* Menu Style*/
+
+.navbar ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #334454;
+    font-weight: bold;
+}
+
+
+/* End Menu Style */
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width .button {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, blue, #6d69e5);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.projects-area {
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 700px;
+}
+
+.project-items a {
+    text-decoration: none;
+}
+
+.projects-area h2 {
+    text-align: center;
+}
+
+.projects-area .project-items {
+    width: 25%;
+    float: left;
+    height: 40%;
+    margin: 5%;
+    margin-right: -1%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.testimonial-area {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    margin-top: 80px;
+}
+
+.call-to-action-area {
+    background-image: url('img/Group_33094_1.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    height: 10px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.call-to-action-area .action-width {
+    width: 50%;
+    float: left;
+}
+
+.call-to-action-area h1 {
+    font-size: 48px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    color: white;
+}
+
+.call-to-action-area .action-width a {
+    float: right;
+    text-decoration: none;
+    margin: 70px;
+    background-image: linear-gradient(45deg, #ff2d80, #ff7aad);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer h3 {
+    color: #334454;
+    font-size: 36px;
+}
+
+h4 {
+    color: #696871;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
